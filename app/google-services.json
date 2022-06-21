@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "828787747450",
+    "project_id": "parayonetimid",
+    "storage_bucket": "parayonetimid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828787747450:android:97be3d6790009b469f29c3",
+        "android_client_info": {
+          "package_name": "com.example.parayonetimid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "828787747450-aj72ctmrcl2cv8d2js0u4bqk5q02c4v0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3e4zerW7Vhnaj6xLUXn174AuSe8nICSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "828787747450-aj72ctmrcl2cv8d2js0u4bqk5q02c4v0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

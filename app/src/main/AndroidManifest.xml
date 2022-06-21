@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parayonetimid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ParaYonetimid">
+        <activity
+            android:name=".Tkvmyazi"
+            android:exported="false" />
+        <activity
+            android:name=".Tema"
+            android:exported="false" />
+        <activity
+            android:name=".Yedekle"
+            android:exported="false" />
+        <activity
+            android:name=".Hesapkodu"
+            android:exported="false" />
+        <activity
+            android:name=".Pcdenynt"
+            android:exported="false" />
+        <activity
+            android:name=".Yardim"
+            android:exported="false" />
+        <activity
+            android:name=".Hesapsil"
+            android:exported="false" />
+        <activity
+            android:name=".Ayarlarr"
+            android:exported="false" />
+        <activity
+            android:name=".Ayarlar"
+            android:exported="false" />
+        <activity
+            android:name=".Tkvmekle"
+            android:exported="false" />
+        <activity
+            android:name=".Takvim"
+            android:exported="false" />
+        <activity
+            android:name=".Kategrekle"
+            android:exported="false" />
+        <activity
+            android:name=".Kategori"
+            android:exported="false" />
+        <activity
+            android:name=".Bankaekle"
+            android:exported="false" />
+        <activity
+            android:name=".bankalar"
+            android:exported="false" />
+        <activity
+            android:name=".aylikanlz"
+            android:exported="false" />
+        <activity
+            android:name=".hsbmunuttum"
+            android:exported="false" />
+        <activity
+            android:name=".sayfa3"
+            android:exported="false" />
+        <activity
+            android:name=".sayfa2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

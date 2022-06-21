@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B8B8B8"
+    tools:context=".Ayarlar">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="112dp"
+                android:layout_marginEnd="112dp"
+                android:layout_marginBottom="624dp"
+                android:text="Para Yönetimi"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="117dp"
+                android:layout_height="63dp"
+                android:layout_marginStart="146dp"
+                android:layout_marginEnd="148dp"
+                android:layout_marginBottom="523dp"
+                android:text="Ayarlar"
+                android:textSize="36sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="93dp"
+                android:layout_height="85dp"
+                android:layout_marginBottom="388dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.135"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/ayarlar" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="113dp"
+                android:layout_height="88dp"
+                android:layout_marginBottom="384dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/hesapsil" />
+
+            <ImageButton
+                android:id="@+id/imageButton8"
+                android:layout_width="98dp"
+                android:layout_height="91dp"
+                android:layout_marginBottom="380dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.913"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/yardim" />
+
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="133dp"
+                android:layout_height="98dp"
+                android:layout_marginBottom="272dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.046"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/pcdenyonet" />
+
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:layout_width="124dp"
+                android:layout_height="95dp"
+                android:layout_marginBottom="276dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.519"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/hesapkodu" />
+
+            <ImageButton
+                android:id="@+id/imageButton11"
+                android:layout_width="91dp"
+                android:layout_height="90dp"
+                android:layout_marginBottom="276dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.934"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/yedekle" />
+
+            <ImageButton
+                android:id="@+id/imageButton12"
+                android:layout_width="119dp"
+                android:layout_height="89dp"
+                android:layout_marginBottom="164dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.092"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/tavsiyeet" />
+
+            <ImageButton
+                android:id="@+id/imageButton13"
+                android:layout_width="85dp"
+                android:layout_height="103dp"
+                android:layout_marginBottom="148dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/tema" />
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="122dp"
+                android:layout_height="92dp"
+                android:layout_marginBottom="156dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.944"
+                app:layout_constraintStart_toStartOf="parent"
+                app:srcCompat="@drawable/tekraryukle" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_above="@+id/ayrl_BottomNavigationView"
+        android:id="@+id/ayrl_frameLayout"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="412dp"
+        android:layout_height="51dp"
+        android:id="@+id/ayrl_BottomNavigationView"
+        app:menu="@menu/bottombar_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:itemIconTint="@color/bottombar_color"
+        app:itemTextColor="@color/bottombar_color"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
